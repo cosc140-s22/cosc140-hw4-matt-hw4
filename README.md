@@ -8,5 +8,9 @@
 It was a nice hands on experience with Django. 
 ## Feedback
 
-Once you commit and submit your work to Github, I'll update this section with feedback.
+N
+
+For the `age_range` method, if the min and max are the same your method should just return 'Age 2' (or whatever the age) but it currently says 'Ages 2 to 2'.  The problem in your method is actually just the order of the `if` statements; if the last one was moved up, the method would likely return the correct thing.
+
+Everything else looked good.
 
